@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <title>Account Summary</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+          $('nav').addClass('black');
+        }
+        else{
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+        <img src="images/logo.png" alt="LOGO">
+        </div>
+        <ul>
+
+          <li><a href="record.html" class="button hvr-underline-from-left">Record Game
+
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pimgnew2">
+      <div class="ptext">
+        <span class="border">Poker Account Manager</span>
+      </div>
+    </div>
+    <section class="section section-dark">
+      <h2>Account Summary:</h2>
+      <p>
+        <input type = "text"
+               id = "myText"
+               value = "" />
+      </p>
+      <p>
+        <input type = "text"
+               id = "Twitter"
+               value = "" />
+      </p>
+      <p>
+        <input type = "text"
+               id = "Stats"
+               value = "" />
+      </p>
+      <p>
+        <input type = "text"
+               id = "History"
+               value = "" />
+      </p>
+
+    <br />
+
+
+    <a href="record.html">  <button type="button" name="button">Record Game</button></a>
+
+    </section>
+
+
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <title>Record</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+          $('nav').addClass('black');
+        }
+        else{
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+        <img src="images/logo.png" alt="LOGO">
+        </div>
+        <ul>
+          <li><a href="account.html" class="button hvr-underline-from-left">Account Summary
+
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">Poker Account Manager: Record Game</span>
+      </div>
+    </div>
+    <section class="section section-dark">
+      <h2>Record Game</h2>
+      <p>
+        <label>Buy In Amount:</label>
+        <input type = "text"
+               id = "buyIn"
+               value = "" />
+      </p>
+      <p>
+        <label>Cash Out Amount:</label>
+        <input type = "text"
+               id = "cashOut"
+               value = "" />
+      </p>
+
+<br />
+
+
+      <button type="button" name="button">Submit</button>
+
+    </section>
+
+
+  </body>
+</html>
